@@ -1,4 +1,6 @@
-README.md
+<h1>README.md</h1>
+
+<p>Check the page out <a href="https://master.d19gsti4yiutb.amplifyapp.com">here</a>!</p>
 
 This is a personal endeavor. I am interested in cloud computing and AI. So, I am going to undertake a personal project that combines these two interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
 
