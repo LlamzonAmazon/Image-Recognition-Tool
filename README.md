@@ -1,8 +1,12 @@
-# React + Vite
+# AIImageRecognitionTool
+An AI-powered image recognition tool implemented with Amazon Web Services.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal endeavor. I am interested in cloud computing and AI. So, I am going to undertake a personal project that combines these two interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ol>
+  <li>Improved my full-stack development skills</li>
+  <li>Gained valuable experience with AWS</li>
+  <li>Learned how to integrate AI into an application</li>
+</ol>
+  
+I do not know much about AWS nor am I very familiar with full-stack. This project will begin with a lot of learning and planning before I actually begin development. These are two things I have been meaning to gain experience with. So, I am excited for what I will learn during this project.
