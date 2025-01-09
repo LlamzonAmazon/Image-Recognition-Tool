@@ -1,5 +1,4 @@
-# AIImageRecognitionTool
-An AI-powered image recognition tool implemented with Amazon Web Services.
+README.md
 
 This is a personal endeavor. I am interested in cloud computing and AI. So, I am going to undertake a personal project that combines these two interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
 
