@@ -27,9 +27,6 @@
     <li>Host with AWS Amplify ✅</li>
 </ol>
 
-### Service Diagram
-<img src="GoatedDiagram.png" alt="">
-
 ## Resources to Use 
 > Subject to change
 
@@ -39,8 +36,18 @@
 - CSS
 
 ### AWS Features
-- Amplify (Web hosting)
-- Cognito (Account handling)
-- S3 (Image Storage)
-- Rekognition via Lambda (Image processing)
-- Lambda + API Gateway? (Backend shenanigans)
+
+Web Hosting
+<ul><li>Amplify</li></ul>
+Account Handling 
+<ul>
+    <li>Amplify Auth</li>
+    <li>Cognito?</li>
+</ul>
+Image Processing & Storing
+<ul>
+    <li>Rekognition (via Lambda?)</li>
+    <li>S3</li>
+</ul>
+Backend
+<ul><li>Lambda + API Gateway</li></ul>
