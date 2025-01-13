@@ -1,4 +1,4 @@
-/*
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -34,9 +34,9 @@ function App() {
 }
 
 export default App
-*/
 
-/*===================================================================*/
+
+/*===================================================================
 
 import { useState, useEffect } from "react";
 import {
@@ -59,7 +59,7 @@ import { generateClient } from "aws-amplify/data";
 import outputs from "../amplify_outputs.json";
 /**
  * @type {import('aws-amplify/data').Client<import('../amplify/data/resource').Schema>}
- */
+// ADD COMMENT END HERE
 
 Amplify.configure(outputs);
 const client = generateClient({
@@ -223,3 +223,6 @@ export default function App() {
     </Authenticator>
   );
 }
+
+
+*/
