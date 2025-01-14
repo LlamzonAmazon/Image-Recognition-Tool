@@ -2,11 +2,11 @@
 
 ## Flow
 <ol>
-    <li>A user enters the site</li>
+    <li>User enters site – Go to 2.</li>
     <li>Account page
         <ol>
-            <li>User logs in – go to 3.</li>
-            <li>User creates account – go to 4.</li>
+            <li>User logs in – Go to 3.</li>
+            <li>User creates account – Go to 3.</li>
         </ol>
     </li>
     <li>Main Menu
@@ -15,6 +15,7 @@
             <li>Create/Choose Topic – all subsequent image uploads will be categorized under this topic</li>
             <li>User uploads image – AI will begin processing the image, and then create a textual summary of what it sees</li>
             <li>User is prompted to upload another image</li>
+            <li>User signs out – Go to 2.</li>
         </ol>
     </li>
 </ol>
