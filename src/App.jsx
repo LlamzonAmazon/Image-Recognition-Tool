@@ -1,4 +1,7 @@
 import { useState } from "react";
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 import { Authenticator, Button, Flex } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
@@ -30,6 +33,9 @@ export default function App() {
             </button>
             <p>Edit <code>src/App.jsx</code> and save to test HMR</p>
           </div>
+          <p className="read-the-docs">
+            Click on the Vite and React logos to learn more
+          </p>
           <Button onClick={signOut}>Sign Out</Button>
         </Flex>
       )}
