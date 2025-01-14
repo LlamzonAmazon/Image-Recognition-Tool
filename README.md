@@ -9,4 +9,4 @@ This is a personal endeavor. I am interested in cloud computing and AI; it is a 
   <li>Gained valuable experience with AWS</li>
 </ol>
   
-I do not know much about AWS nor am I very familiar with full-stack. This project will begin with a lot of learning and planning before I actually begin development. I am excited for what I will learn during this project.
+I do not know much about AWS nor am I very familiar with full-stack. This project will begin with a lot of learning and planning before I actually begin development. I am excited for what I will learn during this project! Hopefully this opens up some exciting new avenues for me.
