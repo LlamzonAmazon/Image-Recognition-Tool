@@ -38,7 +38,7 @@ This folder contains planning documents and process documentation.
 > Subject to change
 
 ### Languages
-- React
+- React (JS, TS)
 - HTML
 - CSS
 
