@@ -44,16 +44,22 @@ This folder contains planning documents and process documentation.
 
 ### AWS Features
 
-Web Hosting
-<ul><li>Amplify</li></ul>
-Account Handling 
 <ul>
-    <li>Amplify Auth, Data, Storage</li>
+    <li>Web Hosting
+        <ul><li>Amplify</li></ul>
+    </li>
+    <li>Account Handling 
+        <ul>
+            <li>Amplify Auth, Data, Storage</li>
+        </ul>
+    </li>
+    <li>Image Processing & Storing
+        <ul>
+            <li>Rekognition (via Lambda?)</li>
+            <li>S3</li>
+        </ul>
+    </li>
+    <li>Backend
+        <ul><li>Lambda + API Gateway</li></ul>
+    </li>
 </ul>
-Image Processing & Storing
-<ul>
-    <li>Rekognition (via Lambda?)</li>
-    <li>S3</li>
-</ul>
-Backend
-<ul><li>Lambda + API Gateway</li></ul>
