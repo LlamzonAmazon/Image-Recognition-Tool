@@ -48,8 +48,7 @@ Web Hosting
 <ul><li>Amplify</li></ul>
 Account Handling 
 <ul>
-    <li>Amplify Auth</li>
-    <li>Cognito?</li>
+    <li>Amplify Auth, Data, Storage</li>
 </ul>
 Image Processing & Storing
 <ul>
