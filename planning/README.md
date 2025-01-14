@@ -25,6 +25,8 @@
     <li>Create wireframe to identify features ✅</li>
     <li>Create React app with Vite ✅</li>
     <li>Host with AWS Amplify ✅</li>
+    <li>Add user authentication with Amplify ✅</li>
+    
 </ol>
 
 ## Resources to Use 
