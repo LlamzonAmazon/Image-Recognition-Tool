@@ -19,14 +19,16 @@
     </li>
 </ol>
 
-## Development Plan
+## Development Process
 <ol>
     <li>Control flow diagram ✅</li>
     <li>Create wireframe to identify features ✅</li>
     <li>Create React app with Vite ✅</li>
     <li>Host with AWS Amplify ✅</li>
     <li>Add user authentication with Amplify ✅</li>
-    
+    <li>Create the layout of the main page</li>
+    <li>Implement AWS Rekognition</li>
+    <li></li>
 </ol>
 
 ## Resources to Use 
