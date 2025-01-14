@@ -1,5 +1,7 @@
 # Project Plan & Management
 
+This folder contains planning documents and process documentation.
+
 ## Flow
 <ol>
     <li>User enters site – Go to 2.</li>
