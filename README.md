@@ -1,9 +1,9 @@
 <h1>README.md</h1>
 
 <p>Check up on development <a href="https://master.d19gsti4yiutb.amplifyapp.com">here</a>!</p>
+<b>Current state</b>: The page now has a functioning account system. Users can sign-in and create accounts. They can also sign in, make changes on the main page, sign out, and log-in again with their previous state saved.
 
-This is a personal endeavor. I am interested in cloud computing and AI; it is a goal of mine to be something along the lines of a cloud engineer. So, I am going to undertake a personal project that combines some interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
-
+<br>This is a personal endeavor. I am interested in cloud computing and AI; it is a goal of mine to be something along the lines of a cloud engineer. So, I am going to undertake a personal project that combines some interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
 <ol>
   <li>Improved my full-stack development skills with React</li>
   <li>Gained valuable experience with AWS</li>
