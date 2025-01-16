@@ -56,3 +56,16 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
+#signOutButton {
+  background-color: #888; /* Example: Change the background color */
+  color: white;             /* Example: Change the text color */
+  padding: 10px 20px;       /* Example: Add some padding */
+  border: none;             /* Example: Remove the border */
+  border-radius: 5px;       /* Example: Add rounded corners */
+  cursor: pointer;          /* Example: Show a pointer on hover */
+}
+
+#signOutButton:hover {
+  background-color: #646cffaa; /* Example: Change background on hover */
+}

@@ -25,7 +25,7 @@ export default function App() {
             </a>
           </div>
           <h1>Image Recognition Tool</h1>
-          <Button onClick={signOut}>Sign Out</Button>
+          <Button id="signOutButton" onClick={signOut}>Sign Out</Button>
         </Flex>
       )}
     </Authenticator>
