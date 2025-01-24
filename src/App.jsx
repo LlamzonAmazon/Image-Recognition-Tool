@@ -36,26 +36,36 @@ export default function App() {
   return (
     <Authenticator>
       {({ signOut }) => (
-        <Flex direction="column" justifyContent="flex-start" alignItems="flex-start" style={{ position: 'relative', height: '100vh' }}>
-          
-          {/* Sign Out Button - positioned at the top right corner */}
-          <Button 
-            id="signOutButton" 
-            onClick={signOut} 
-            style={{
-              position: 'absolute', 
-              top: '10px', 
-              right: '10px'
-            }}
+        <Flex
+          direction="column"
+          justifyContent="flex-start"
+          alignItems="center"
+          style={{ height: '100vh', padding: '1rem' }}
+        >
+          {/* Header Section */}
+          <Flex
+            justifyContent="space-between"
+            alignItems="center"
+            style={{ width: '100%', position: 'relative' }}
           >
-            Sign Out
-          </Button>
-
-          {/* Title */}
-          <h1>Image Recognition Tool</h1>
-
+            {/* Title */}
+            <h1 style={{ margin: 0 }}>Image Recognition Tool</h1>
+  
+            {/* Sign Out Button */}
+            <Button
+              id="signOutButton"
+              onClick={signOut}
+              style={{
+                position: 'relative', // Remove absolute positioning
+                right: 0,
+              }}
+            >
+              Sign Out
+            </Button>
+          </Flex>
+  
           {/* Drag and Drop Area */}
-          <div 
+          <div
             className="drag-drop-area"
             onDrop={handleDrop}
             onDragOver={handleDragOver}
@@ -65,38 +75,33 @@ export default function App() {
               border: '2px dashed #666',
               borderRadius: '8px',
               textAlign: 'center',
-              paddingTop: '200px',
-              position: 'absolute',
-              top: '40%'
+              paddingTop: '80px',
+              marginTop: '2rem', // Adjusted for spacing
             }}
           >
             <p>Drag and drop an image here.</p>
-            <input 
-              type="file" 
-              accept="image/*" 
+            <input
+              type="file"
+              accept="image/*"
               onChange={handleFileChange}
               style={{
-                display: 'none'
+                display: 'none',
               }}
               id="fileInput"
             />
-            <label 
-              htmlFor="fileInput" 
+            <label
+              htmlFor="fileInput"
               style={{
-                position: 'absolute', 
-                top: '10px', 
+                position: 'absolute',
+                top: '10px',
                 right: '10px',
-                cursor: 'pointer'
+                cursor: 'pointer',
               }}
             >
-              <img 
-                src={viteLogo}
-                alt="Upload File" 
-                width="40"
-              />
+              <img src={viteLogo} alt="Upload File" width="40" />
             </label>
           </div>
-
+  
           {/* Display the selected image */}
           {image && (
             <div style={{ marginTop: '20px' }}>
@@ -107,4 +112,5 @@ export default function App() {
       )}
     </Authenticator>
   );
+  
 }
