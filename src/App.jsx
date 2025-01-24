@@ -40,23 +40,24 @@ export default function App() {
           direction="column"
           justifyContent="flex-start"
           alignItems="center"
-          style={{ height: '95vh', width: '95%', padding: '1rem' }}
+          style={{ height: '95vh', padding: '1rem' }}
         >
           {/* Sign Out Button */}
           <Button
             id="signOutButton"
             onClick={signOut}
             style={{
-              position: 'relative',
-              right: 0,
+              position: 'absolute', // Changed to absolute positioning
+              top: '10px',
+              right: '10px',
             }}
           >
             Sign Out
           </Button>
-
+  
           {/* Title */}
-          <h1 style={{ margin: 0 }}>Image Recognition Tool</h1>
-
+          <h1 style={{ margin: 0, marginTop: '3rem' }}>Image Recognition Tool</h1>
+  
           {/* Drag and Drop Area */}
           <div
             className="drag-drop-area"
@@ -68,11 +69,26 @@ export default function App() {
               border: '2px dashed #666',
               borderRadius: '8px',
               textAlign: 'center',
-              paddingTop: '80px',
-              marginTop: '2rem', // Adjusted for spacing
+              paddingTop: '50px', // Adjusted for spacing
+              marginTop: '3rem', // Adjusted for spacing
+              position: 'relative',
             }}
           >
             <p>Drag and drop an image here.</p>
+  
+            {/* Vite Logo */}
+            <img
+              src={viteLogo}
+              alt="Vite Logo"
+              style={{
+                position: 'absolute',
+                top: '10px', // Position inside the dashed box
+                left: 'calc(50% - 20px)', // Center horizontally
+                width: '40px',
+              }}
+            />
+  
+            {/* File Input */}
             <input
               type="file"
               accept="image/*"
@@ -82,19 +98,8 @@ export default function App() {
               }}
               id="fileInput"
             />
-            <label
-              htmlFor="fileInput"
-              style={{
-                position: 'absolute',
-                top: '10px',
-                right: '10px',
-                cursor: 'pointer',
-              }}
-            >
-              <img src={viteLogo} alt="Upload File" width="40" />
-            </label>
           </div>
-
+  
           {/* Display the selected image */}
           {image && (
             <div style={{ marginTop: '20px' }}>
@@ -105,5 +110,6 @@ export default function App() {
       )}
     </Authenticator>
   );
+  
 
 }
