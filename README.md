@@ -1,6 +1,6 @@
 # Welcome to my project page!
 
-<b><a href="https://master.d19gsti4yiutb.amplifyapp.com">Current state</a></b>: The page now has user authentication. Users can sign-up, log in, log out, with their changes on the site saved. I am currently designing the main page where users will use the image recognition tool. 
+<b><a href="https://master.d19gsti4yiutb.amplifyapp.com">Current state</a></b>: The site now has user authentication. Users can sign-up, log in, log out, with their changes on the site saved. I am currently designing the main page where users will use the image recognition tool. 
 
 ---
 
