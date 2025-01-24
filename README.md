@@ -4,7 +4,7 @@
 
 ---
 
-This is a personal endeavor. I am interested in cloud computing and AI; it is a goal of mine to be something along the lines of a cloud engineer. So, I am going to undertake a personal project that combines some interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
+This is a personal endeavor. I am interested in cloud computing and AI. So, I have taken on a personal project that combines these interests of mine in a seemingly simple manner. Hopefully, by the end of this project I have ...
 <ol>
   <li>Improved my full-stack development skills with React</li>
   <li>Gained valuable experience with AWS</li>
