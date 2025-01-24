@@ -6,7 +6,7 @@ import { Authenticator, Button, Flex } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
 import outputs from "../amplify_outputs.json";
-import uploadIcon from './assets/image-upload-icon.svg';
+import uploadIcon from './assets/upload.svg';
 
 // Configure Amplify
 Amplify.configure(outputs);
@@ -101,7 +101,7 @@ export default function App() {
               }}
             >
               <img 
-                src="https://github.com/ant-design/ant-design-icons/blob/master/packages/icons-svg/svg/outlined/upload.svg" 
+                src="uploadIcon" 
                 alt="File Icon" 
                 width="40"
               />
