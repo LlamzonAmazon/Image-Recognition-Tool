@@ -70,7 +70,7 @@ export default function App() {
               borderRadius: '8px',
               textAlign: 'center',
               paddingTop: '50px',
-              marginTop: '3rem', 
+              marginTop: '6rem', 
               position: 'relative',
             }}
           >
@@ -93,7 +93,7 @@ export default function App() {
               style={{
                 position: 'absolute',
                 top: '15px',
-                left: '15px', // Center horizontally
+                right: '15px', // Center horizontally
                 height: '25px',
                 width: '25px',
               }}
