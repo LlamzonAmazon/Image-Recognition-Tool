@@ -1,12 +1,10 @@
 import { useState } from "react";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '/vite.svg';
 import './App.css'
 import { Authenticator, Button, Flex } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
 import outputs from "../amplify_outputs.json";
-import uploadIcon from './assets/upload.svg';
 
 // Configure Amplify
 Amplify.configure(outputs);
@@ -55,16 +53,6 @@ export default function App() {
 
           {/* Title */}
           <h1>Image Recognition Tool</h1>
-          
-          {/* Logo Section */}
-          <div>
-            <a href="https://vite.dev" target="_blank">
-              <img src={viteLogo} className="logo" alt="Vite logo" />
-            </a>
-            <a href="https://react.dev" target="_blank">
-              <img src={reactLogo} className="logo react" alt="React logo" />
-            </a>
-          </div>
 
           {/* Drag and Drop Area */}
           <div 
@@ -74,14 +62,15 @@ export default function App() {
             style={{
               width: '100%',
               height: '200px',
-              border: '2px dashed #ccc',
+              border: '2px dashed #666',
               borderRadius: '8px',
               textAlign: 'center',
-              paddingTop: '60px',
-              position: 'relative'
+              paddingTop: '200px',
+              position: 'absolute',
+              top: '40%'
             }}
           >
-            <p>Drag and drop an image here</p>
+            <p>Drag and drop an image here.</p>
             <input 
               type="file" 
               accept="image/*" 
@@ -101,8 +90,8 @@ export default function App() {
               }}
             >
               <img 
-                src="uploadIcon" 
-                alt="File Icon" 
+                src={viteLogo}
+                alt="Upload File" 
                 width="40"
               />
             </label>
