@@ -69,12 +69,22 @@ export default function App() {
               border: '2px dashed #666',
               borderRadius: '8px',
               textAlign: 'center',
-              paddingTop: '50px', // Adjusted for spacing
-              marginTop: '3rem', // Adjusted for spacing
+              paddingTop: '50px',
+              marginTop: '3rem', 
               position: 'relative',
             }}
           >
-            <p>Drag and drop an image here.</p>
+            <p
+              style={{
+                position: 'absolute',
+                bottom: '10px',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                margin: 0,
+              }}
+            > 
+              Drag and drop an image here.
+            </p>
   
             {/* Vite Logo */}
             <img
@@ -82,9 +92,10 @@ export default function App() {
               alt="Vite Logo"
               style={{
                 position: 'absolute',
-                top: '10px', // Position inside the dashed box
-                left: 'calc(50% - 20px)', // Center horizontally
-                width: '40px',
+                top: '15px',
+                left: '15px', // Center horizontally
+                height: '25px',
+                width: '25px',
               }}
             />
   
