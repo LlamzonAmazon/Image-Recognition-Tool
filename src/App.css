@@ -58,14 +58,33 @@ button:hover {
 }
 
 #signOutButton {
-  background-color: #888; /* Example: Change the background color */
-  color: white;             /* Example: Change the text color */
-  padding: 10px 20px;       /* Example: Add some padding */
-  border: none;             /* Example: Remove the border */
-  border-radius: 5px;       /* Example: Add rounded corners */
-  cursor: pointer;          /* Example: Show a pointer on hover */
+  background-color: #888;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 #signOutButton:hover {
-  background-color: #646cffaa; /* Example: Change background on hover */
+  background-color: #646cffaa;
+  filter: drop-shadow(0 0 2em #ff2de3aa);
 }
+
+.drag-drop-area {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.drag-drop-area p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
