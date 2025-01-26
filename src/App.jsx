@@ -33,6 +33,7 @@ export default function App() {
     event.preventDefault();
   };
 
+  // Render the app
   return (
     <Authenticator>
       {({ signOut }) => (
@@ -47,9 +48,11 @@ export default function App() {
             id="signOutButton"
             onClick={signOut}
             style={{
-              position: 'absolute', // Changed to absolute positioning
-              top: '10px',
-              right: '10px',
+              position: 'absolute',
+              top: '25px',
+              right: '25px',
+              height: '30px',
+              width: '80px',
             }}
           >
             Sign Out
@@ -93,7 +96,7 @@ export default function App() {
               style={{
                 position: 'absolute',
                 top: '15px',
-                right: '15px', // Center horizontally
+                right: '15px',
                 height: '25px',
                 width: '25px',
               }}
