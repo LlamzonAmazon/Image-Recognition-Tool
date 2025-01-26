@@ -22,12 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-amplify_outputs.json
-eslint.config.js
-*.tsbuildinfo
-package-lock.json
-package.json
-vite.config.js
 
 # amplify
 .amplify
