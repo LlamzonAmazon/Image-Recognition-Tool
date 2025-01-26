@@ -53,6 +53,8 @@ export default function App() {
               right: '25px',
               height: '30px',
               width: '80px',
+              textAlign: 'center',
+              fontSize: '1rem',
             }}
           >
             Sign Out
@@ -114,12 +116,23 @@ export default function App() {
             />
           </div>
   
-          {/* Display the selected image */}
-          {image && (
-            <div style={{ marginTop: '20px' }}>
-              <img src={image} alt="Selected" style={{ maxWidth: '100%', maxHeight: '400px' }} />
-            </div>
-          )}
+          {/* Rekognition Textual Summary area*/}
+          <div
+            style={{
+              width: '100%',
+              marginTop: '2rem',
+              padding: '1rem',
+              color: '#636363',
+              borderRadius: '8px',
+              textAlign: 'center',
+            }}
+          >
+            <h2>Rekognition Textual Summary</h2>
+            <p>
+              This area will display the textual summary of the image recognition results.
+            </p>
+          </div>
+          
         </Flex>
       )}
     </Authenticator>
