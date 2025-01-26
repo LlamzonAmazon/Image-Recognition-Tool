@@ -92,7 +92,7 @@ export default function App() {
             {/* Vite Logo */}
             <img
               src={viteLogo}
-              alt="Vite Logo"
+              alt="File Upload Icon"
               style={{
                 position: 'absolute',
                 top: '15px',
